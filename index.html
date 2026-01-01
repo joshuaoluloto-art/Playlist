@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>music playlist ui</title>
+  <link rel="stylesheet" href="style.css">
+  
+‎  <!-- Example CDN Link for a specific version -->
+‎  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="side-bar">
+    <h2>Mymusic</h2>
+    <ul>
+      <li><i class="fa fa-home"></i>Home</li>
+      <li><i class="fa fa-music"></i>Playlists</li>
+      <li><i class="fa fa-heart"></i>Favourites</li>
+      <li><i class="fa fa-cog"></i>Settings</li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <h1>My playlist</h1>
+    <div class="playlist-grid">
+      <a href="#player1" class="playlist-card">
+        <img src="./guc cover.jpg" alt="cover1"/>
+        <button class="play-button">
+          <i class="fa fa-play"></i>
+        </button>
+        <div class="playlist-tittle"> GUC</div>
+      </a>
+    </div>
+    
+     <div class="playlist-grid">
+      <a href="#player3" class="playlist-card">
+        <img src="./SaveClip.App_527309994_2571011559913810_5928582826464747019_n.jpg" alt="album3"/>
+        <button class="play-button">
+          <i class="fa fa-play"></i>
+        </button>
+        <div class="playlist-tittle">Mercy Chinwo</div>
+      </a>
+    </div>
+    
+        <div class="playlist-grid">
+      <a href="#player2" class="playlist-card">
+        <img src="./moses bliss cover.jpg" alt="cover2" />
+        <button class="play-button">
+          <i class="fa fa-play"></i>
+        </button>
+        <div class="playlist-tittle"> Moses Bliss </div>
+      </a>
+    </div>
+  </div>
+  
+     
+    
+  
+  
+  
+  <div class="active-play" id="player1">
+    <div class="content-play">
+      <a href="#" class="close" >&times;</a>
+      <img src="./guc album.jpg" alt="album1" />
+      <h2>The Bill</h2>
+      <button class="play-btn"><i class="fa fa-play"></i></button>
+    </div>
+  </div>
+  
+  
+    <div class="active-play" id="player3">
+    <div class="content-play">
+      <a href="#" class="close" >&times;</a>
+      <img src="./0x1900-000000-80-0-0(0).jpg" alt="album3" />
+      <h2>We Move</h2>
+      <button class="play-btn"><i class="fa fa-play"></i></button>
+    </div>
+  </div>
+  
+    <div class="active-play" id="player2">
+    <div class="content-play">
+      <a class="close" >&times;</a>
+      <img src="./moses bliss album.jpg" alt="" />
+      <h2>The Expression</h2>
+      <button class="play-btn"><i class="fa fa-play"></i></button>
+    </div>
+  </div>
+
+
+  
+  
+  
+   
+</body>
+</html>
